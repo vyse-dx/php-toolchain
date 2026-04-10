@@ -1,0 +1,5 @@
+#!/bin/bash
+
+docker compose run --rm dev php vendor/bin/php-cs-fixer fix \
+    --config=./.php-cs-fixer.php \
+    "$@"

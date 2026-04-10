@@ -1,0 +1,25 @@
+{
+    "name": "vyse/toolchain",
+    "description": "Highly opinionated PHP tooling for Vyse projects.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vyse\\Toolchain\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andy Fletcher"
+        }
+    ],
+    "require": {
+        "php": "^8.5",
+        "phpunit/phpunit": "^13.1",
+        "friendsofphp/php-cs-fixer": "^3.94",
+        "phpstan/phpstan": "^2.1",
+        "phpstan/phpstan-deprecation-rules": "^2.0",
+        "phpstan/phpstan-phpunit": "^2.0",
+        "phpstan/phpstan-strict-rules": "^2.0"
+    }
+}
