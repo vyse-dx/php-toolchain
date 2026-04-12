@@ -14,12 +14,16 @@
         }
     ],
     "require": {
-        "php": "^8.5",
-        "phpunit/phpunit": "^13.1",
         "friendsofphp/php-cs-fixer": "^3.94",
+        "php": "^8.5",
         "phpstan/phpstan": "^2.1",
         "phpstan/phpstan-deprecation-rules": "^2.0",
         "phpstan/phpstan-phpunit": "^2.0",
-        "phpstan/phpstan-strict-rules": "^2.0"
+        "phpstan/phpstan-strict-rules": "^2.0",
+        "phpunit/phpunit": "^13.1",
+        "vyse/installer": "^1.0"
+    },
+    "extra": {
+        "vyse-bin": "vyse-bin"
     }
 }
