@@ -1,0 +1,5 @@
+services:
+    -
+        class: Vyse\Toolchain\PhpStan\Rule\IntegrationTestCaseMakeRule
+        tags:
+            - phpstan.rules.rule

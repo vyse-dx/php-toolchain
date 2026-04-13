@@ -1,4 +1,5 @@
 includes:
+    - rules.neon
     - vendor/phpstan/phpstan-deprecation-rules/rules.neon
     - vendor/phpstan/phpstan-phpunit/extension.neon
     - vendor/phpstan/phpstan-phpunit/rules.neon
@@ -20,9 +21,12 @@ parameters:
             identifier: property.unresolvableNativeType
             path: test/*
         -
+            identifier: method.unresolvableReturnType
+            path: test/*
+        -
             identifier: staticMethod.unresolvableReturnType
             path: test/*
         -
             identifier: method.nonObject
-            message: '#Cannot call method willReturn\(\) on mixed#'
+            message: '#Cannot call method (willReturn|method|expects)\(\) on mixed#'
             path: test/*

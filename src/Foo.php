@@ -8,11 +8,12 @@ final readonly class Foo
 {
     public function __construct(
         private Bar $bar,
+        private int $multiplier,
     ) {
     }
 
     public function test(): int
     {
-        return $this->bar->test();
+        return $this->bar->test() * $this->multiplier;
     }
 }

@@ -17,12 +17,12 @@ class FooTest extends TestCase
     public function setUp(): void
     {
         $this->bar = self::createMock(Bar::class);
-        $this->foo = new Foo($this->bar);
+        $this->foo = new Foo($this->bar, 2);
     }
 
     public function testSomething(): void
     {
         $this->bar->method('test')->willReturn(42);
-        self::assertSame(42, $this->foo->test());
+        self::assertSame(84, $this->foo->test());
     }
 }
