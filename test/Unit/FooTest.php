@@ -16,7 +16,7 @@ class FooTest extends TestCase
 
     public function setUp(): void
     {
-        $this->bar = self::createMock(Bar::class);
+        $this->bar = $this->createMock(Bar::class);
         $this->foo = new Foo($this->bar, 2);
     }
 

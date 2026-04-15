@@ -21,9 +21,18 @@
         "phpstan/phpstan-phpunit": "^2.0",
         "phpstan/phpstan-strict-rules": "^2.0",
         "phpunit/phpunit": "^13.1",
+        "rector/rector": "^2.4",
         "vyse/installer": "^1.0"
     },
     "extra": {
         "vyse-bin": "vyse-bin"
+    },
+    "config": {
+        "allow-plugins": {
+            "vyse/installer": true
+        }
+    },
+    "require-dev": {
+        "symfony/framework-bundle": "^8.0"
     }
 }
