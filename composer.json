@@ -25,7 +25,23 @@
         "vyse/installer": "^1.0"
     },
     "extra": {
-        "vyse-bin": "vyse-bin"
+        "vyse": {
+            "bin": [
+                "vyse-bin"
+            ],
+            "hooks": {
+                "pre-commit": {
+                    "000-style": "vyse/style/check",
+                    "001-static-analysis": "vyse/analyse",
+                    "002-test": "vyse/test/unit"
+                },
+                "pre-push": {
+                    "000-style": "vyse/style/check",
+                    "001-static-analysis": "vyse/analyse",
+                    "002-test": "vyse/test/all"
+                }
+            }
+        }
     },
     "config": {
         "allow-plugins": {

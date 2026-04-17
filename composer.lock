@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b48f9f800c2b804375d9cf3606722ff4",
+    "content-hash": "457793c2fadb2f2764b632fc518f7bea",
     "packages": [
         {
             "name": "clue/ndjson-react",
@@ -812,11 +812,11 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "2.1.47",
+            "version": "2.1.49",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/79015445d8bd79e62b29140f12e5bfced1dcca65",
-                "reference": "79015445d8bd79e62b29140f12e5bfced1dcca65",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/d0082955396e7f5ba19cf298224b85e1099f0ed8",
+                "reference": "d0082955396e7f5ba19cf298224b85e1099f0ed8",
                 "shasum": ""
             },
             "require": {
@@ -861,7 +861,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-04-13T15:49:08+00:00"
+            "time": "2026-04-16T21:10:58+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
@@ -1404,16 +1404,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "13.1.4",
+            "version": "13.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "f51a678e41401c9b3eb3d3e506c054fee215dd93"
+                "reference": "89adcba73441b38db31d5c0473b61e2907311db0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/f51a678e41401c9b3eb3d3e506c054fee215dd93",
-                "reference": "f51a678e41401c9b3eb3d3e506c054fee215dd93",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/89adcba73441b38db31d5c0473b61e2907311db0",
+                "reference": "89adcba73441b38db31d5c0473b61e2907311db0",
                 "shasum": ""
             },
             "require": {
@@ -1427,7 +1427,7 @@
                 "phar-io/manifest": "^2.0.4",
                 "phar-io/version": "^3.2.1",
                 "php": ">=8.4.1",
-                "phpunit/php-code-coverage": "^14.1.1",
+                "phpunit/php-code-coverage": "^14.1.2",
                 "phpunit/php-file-iterator": "^7.0.0",
                 "phpunit/php-invoker": "^7.0.0",
                 "phpunit/php-text-template": "^6.0.0",
@@ -1435,8 +1435,8 @@
                 "sebastian/cli-parser": "^5.0.0",
                 "sebastian/comparator": "^8.1.2",
                 "sebastian/diff": "^8.1.0",
-                "sebastian/environment": "^9.2.0",
-                "sebastian/exporter": "^8.0.1",
+                "sebastian/environment": "^9.3.0",
+                "sebastian/exporter": "^8.0.2",
                 "sebastian/git-state": "^1.0",
                 "sebastian/global-state": "^9.0.0",
                 "sebastian/object-enumerator": "^8.0.0",
@@ -1483,7 +1483,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/13.1.4"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/13.1.5"
             },
             "funding": [
                 {
@@ -1491,7 +1491,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2026-04-15T05:07:43+00:00"
+            "time": "2026-04-16T04:58:40+00:00"
         },
         {
             "name": "psr/container",
@@ -2174,21 +2174,21 @@
         },
         {
             "name": "rector/rector",
-            "version": "2.4.1",
+            "version": "2.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rectorphp/rector.git",
-                "reference": "000b7050b9e4fe98db2192971e56eb0b302b3feb"
+                "reference": "e645b6463c6a88ea5b44b17d3387d35a912c7946"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rectorphp/rector/zipball/000b7050b9e4fe98db2192971e56eb0b302b3feb",
-                "reference": "000b7050b9e4fe98db2192971e56eb0b302b3feb",
+                "url": "https://api.github.com/repos/rectorphp/rector/zipball/e645b6463c6a88ea5b44b17d3387d35a912c7946",
+                "reference": "e645b6463c6a88ea5b44b17d3387d35a912c7946",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.4|^8.0",
-                "phpstan/phpstan": "^2.1.41"
+                "phpstan/phpstan": "^2.1.48"
             },
             "conflict": {
                 "rector/rector-doctrine": "*",
@@ -2222,7 +2222,7 @@
             ],
             "support": {
                 "issues": "https://github.com/rectorphp/rector/issues",
-                "source": "https://github.com/rectorphp/rector/tree/2.4.1"
+                "source": "https://github.com/rectorphp/rector/tree/2.4.2"
             },
             "funding": [
                 {
@@ -2230,7 +2230,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-04-08T08:43:56+00:00"
+            "time": "2026-04-16T13:07:34+00:00"
         },
         {
             "name": "sebastian/cli-parser",
@@ -3851,7 +3851,7 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.35.0",
+            "version": "v1.36.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
@@ -3910,7 +3910,7 @@
                 "portable"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.35.0"
+                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.36.0"
             },
             "funding": [
                 {
@@ -3934,7 +3934,7 @@
         },
         {
             "name": "symfony/polyfill-intl-grapheme",
-            "version": "v1.35.0",
+            "version": "v1.36.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-grapheme.git",
@@ -3992,7 +3992,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.35.0"
+                "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.36.0"
             },
             "funding": [
                 {
@@ -4016,7 +4016,7 @@
         },
         {
             "name": "symfony/polyfill-intl-normalizer",
-            "version": "v1.35.0",
+            "version": "v1.36.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-normalizer.git",
@@ -4077,7 +4077,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.35.0"
+                "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.36.0"
             },
             "funding": [
                 {
@@ -4101,7 +4101,7 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.35.0",
+            "version": "v1.36.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
@@ -4162,7 +4162,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.35.0"
+                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.36.0"
             },
             "funding": [
                 {
@@ -4186,7 +4186,7 @@
         },
         {
             "name": "symfony/polyfill-php80",
-            "version": "v1.35.0",
+            "version": "v1.36.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php80.git",
@@ -4246,7 +4246,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php80/tree/v1.35.0"
+                "source": "https://github.com/symfony/polyfill-php80/tree/v1.36.0"
             },
             "funding": [
                 {
@@ -4270,7 +4270,7 @@
         },
         {
             "name": "symfony/polyfill-php81",
-            "version": "v1.35.0",
+            "version": "v1.36.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php81.git",
@@ -4326,7 +4326,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php81/tree/v1.35.0"
+                "source": "https://github.com/symfony/polyfill-php81/tree/v1.36.0"
             },
             "funding": [
                 {
@@ -4350,7 +4350,7 @@
         },
         {
             "name": "symfony/polyfill-php84",
-            "version": "v1.35.0",
+            "version": "v1.36.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php84.git",
@@ -4406,7 +4406,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php84/tree/v1.35.0"
+                "source": "https://github.com/symfony/polyfill-php84/tree/v1.36.0"
             },
             "funding": [
                 {
@@ -4788,16 +4788,16 @@
         },
         {
             "name": "vyse/installer",
-            "version": "v1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vyse-dx/composer-installer.git",
-                "reference": "c206a555d8955cdddaa584766ea422618c893567"
+                "reference": "82fec2f1c90bde57f2245ff220317bb57f0a43d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vyse-dx/composer-installer/zipball/c206a555d8955cdddaa584766ea422618c893567",
-                "reference": "c206a555d8955cdddaa584766ea422618c893567",
+                "url": "https://api.github.com/repos/vyse-dx/composer-installer/zipball/82fec2f1c90bde57f2245ff220317bb57f0a43d9",
+                "reference": "82fec2f1c90bde57f2245ff220317bb57f0a43d9",
                 "shasum": ""
             },
             "require": {
@@ -4805,11 +4805,15 @@
                 "php": "^8.5"
             },
             "require-dev": {
+                "composer/composer": "^2.9",
                 "vyse/toolchain": "^1.0"
             },
             "type": "composer-plugin",
             "extra": {
-                "class": "Vyse\\Installer\\Plugin"
+                "class": "Vyse\\Installer\\Plugin",
+                "branch-alias": {
+                    "dev-main": "1.0.x-dev"
+                }
             },
             "autoload": {
                 "psr-4": {
@@ -4828,9 +4832,9 @@
             "description": "Install Vyse components on composer install",
             "support": {
                 "issues": "https://github.com/vyse-dx/composer-installer/issues",
-                "source": "https://github.com/vyse-dx/composer-installer/tree/v1.0.1"
+                "source": "https://github.com/vyse-dx/composer-installer/tree/v1.0.2"
             },
-            "time": "2026-04-13T08:01:56+00:00"
+            "time": "2026-04-17T12:29:58+00:00"
         }
     ],
     "packages-dev": [
@@ -5625,7 +5629,7 @@
         },
         {
             "name": "symfony/polyfill-php85",
-            "version": "v1.35.0",
+            "version": "v1.36.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php85.git",
@@ -5681,7 +5685,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php85/tree/v1.35.0"
+                "source": "https://github.com/symfony/polyfill-php85/tree/v1.36.0"
             },
             "funding": [
                 {
