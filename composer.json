@@ -29,6 +29,7 @@
             "bin": [
                 "vyse-bin"
             ],
+            "cache": true,
             "hooks": {
                 "pre-commit": {
                     "000-style": "vyse/style/check",
