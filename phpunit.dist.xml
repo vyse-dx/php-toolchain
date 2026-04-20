@@ -17,8 +17,11 @@
          failOnPhpunitNotice="true"
     >
     <testsuites>
-        <testsuite name="default">
-            <directory>test</directory>
+        <testsuite name="Unit">
+            <directory>test/Unit</directory>
+        </testsuite>
+        <testsuite name="Integration">
+            <directory>test/Integration</directory>
         </testsuite>
     </testsuites>
 
